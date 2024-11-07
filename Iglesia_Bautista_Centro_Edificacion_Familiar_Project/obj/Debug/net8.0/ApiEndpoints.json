@@ -1,0 +1,1568 @@
+[
+  {
+    "ContainingType": "Iglesia_Bautista_Centro_Edificacion_Familiar_Project.Controllers.AlmaceneController",
+    "Method": "Buscar",
+    "RelativePath": "api/Almacene/Buscar",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Ubicacion",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Nombre",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Iglesia_Bautista_Centro_Edificacion_Familiar_Project.Controllers.AlmaceneController",
+    "Method": "Editar",
+    "RelativePath": "api/Almacene/Editar",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "objeto",
+        "Type": "Iglesia_Bautista_Centro_Edificacion_Familiar_Project.Models.Almacene",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Iglesia_Bautista_Centro_Edificacion_Familiar_Project.Controllers.AlmaceneController",
+    "Method": "Eliminar",
+    "RelativePath": "api/Almacene/Eliminar/{IdAlmacenes}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "IdAlmacenes",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Iglesia_Bautista_Centro_Edificacion_Familiar_Project.Controllers.AlmaceneController",
+    "Method": "Guardar",
+    "RelativePath": "api/Almacene/Guardar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "objeto",
+        "Type": "Iglesia_Bautista_Centro_Edificacion_Familiar_Project.Models.Almacene",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Iglesia_Bautista_Centro_Edificacion_Familiar_Project.Controllers.AlmaceneController",
+    "Method": "Lista",
+    "RelativePath": "api/Almacene/Lista",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Iglesia_Bautista_Centro_Edificacion_Familiar_Project.Controllers.AlmaceneController",
+    "Method": "Obtener",
+    "RelativePath": "api/Almacene/Obtener/{IdAlmacenes}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "IdAlmacenes",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Iglesia_Bautista_Centro_Edificacion_Familiar_Project.Controllers.AprovadoEntregaController",
+    "Method": "Eliminar",
+    "RelativePath": "api/AprovadoEntrega/Eliminar/{IdAprovadoEntrega}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "IdAprovadoEntrega",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Iglesia_Bautista_Centro_Edificacion_Familiar_Project.Controllers.AprovadoEntregaController",
+    "Method": "Guardar",
+    "RelativePath": "api/AprovadoEntrega/Guardar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "objeto",
+        "Type": "Iglesia_Bautista_Centro_Edificacion_Familiar_Project.Models.AprovadoEntrega",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Iglesia_Bautista_Centro_Edificacion_Familiar_Project.Controllers.AprovadoEntregaController",
+    "Method": "Lista",
+    "RelativePath": "api/AprovadoEntrega/Lista",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Iglesia_Bautista_Centro_Edificacion_Familiar_Project.Controllers.CargoController",
+    "Method": "Buscar",
+    "RelativePath": "api/Cargo/Buscar",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "nombre",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Iglesia_Bautista_Centro_Edificacion_Familiar_Project.Controllers.CargoController",
+    "Method": "Editar",
+    "RelativePath": "api/Cargo/Editar",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "objeto",
+        "Type": "Iglesia_Bautista_Centro_Edificacion_Familiar_Project.Models.Cargo",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Iglesia_Bautista_Centro_Edificacion_Familiar_Project.Controllers.CargoController",
+    "Method": "Eliminar",
+    "RelativePath": "api/Cargo/Eliminar/{IdCargo}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "IdCargo",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Iglesia_Bautista_Centro_Edificacion_Familiar_Project.Controllers.CargoController",
+    "Method": "Guardar",
+    "RelativePath": "api/Cargo/Guardar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "objeto",
+        "Type": "Iglesia_Bautista_Centro_Edificacion_Familiar_Project.Models.Cargo",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Iglesia_Bautista_Centro_Edificacion_Familiar_Project.Controllers.CargoController",
+    "Method": "Lista",
+    "RelativePath": "api/Cargo/Lista",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Iglesia_Bautista_Centro_Edificacion_Familiar_Project.Controllers.CargoController",
+    "Method": "Obtener",
+    "RelativePath": "api/Cargo/Obtener/{IdCargo}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "IdCargo",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Iglesia_Bautista_Centro_Edificacion_Familiar_Project.Controllers.CategoriaController",
+    "Method": "Buscar",
+    "RelativePath": "api/Categoria/Buscar",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "nombre",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Iglesia_Bautista_Centro_Edificacion_Familiar_Project.Controllers.CategoriaController",
+    "Method": "Editar",
+    "RelativePath": "api/Categoria/Editar",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "objeto",
+        "Type": "Iglesia_Bautista_Centro_Edificacion_Familiar_Project.Models.Categoria",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Iglesia_Bautista_Centro_Edificacion_Familiar_Project.Controllers.CategoriaController",
+    "Method": "Eliminar",
+    "RelativePath": "api/Categoria/Eliminar/{IdCategoria}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "IdCategoria",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Iglesia_Bautista_Centro_Edificacion_Familiar_Project.Controllers.CategoriaController",
+    "Method": "Guardar",
+    "RelativePath": "api/Categoria/Guardar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "objeto",
+        "Type": "Iglesia_Bautista_Centro_Edificacion_Familiar_Project.Models.Categoria",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Iglesia_Bautista_Centro_Edificacion_Familiar_Project.Controllers.CategoriaController",
+    "Method": "Lista",
+    "RelativePath": "api/Categoria/Lista",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Iglesia_Bautista_Centro_Edificacion_Familiar_Project.Controllers.CategoriaController",
+    "Method": "Obtener",
+    "RelativePath": "api/Categoria/Obtener/{idCategoria}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idCategoria",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Iglesia_Bautista_Centro_Edificacion_Familiar_Project.Controllers.DevolucionController",
+    "Method": "CrearDevolucion",
+    "RelativePath": "api/Devolucion",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "devolucion",
+        "Type": "Iglesia_Bautista_Centro_Edificacion_Familiar_Project.Models.DeVolucion",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Iglesia_Bautista_Centro_Edificacion_Familiar_Project.Controllers.DevolucionController",
+    "Method": "EliminarDevolucion",
+    "RelativePath": "api/Devolucion/{idDeVolucion}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idDeVolucion",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Iglesia_Bautista_Centro_Edificacion_Familiar_Project.Controllers.DevolucionController",
+    "Method": "ListaInactivos",
+    "RelativePath": "api/Devolucion/ListaInactivos",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Iglesia_Bautista_Centro_Edificacion_Familiar_Project.BaseDatoDTO.DevolucionDTO, Iglesia_Bautista_Centro_Edificacion_Familiar_Project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Iglesia_Bautista_Centro_Edificacion_Familiar_Project.Controllers.EntradaController",
+    "Method": "EliminarEntrada",
+    "RelativePath": "api/Entrada/Eliminar/{idEntrada}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idEntrada",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Iglesia_Bautista_Centro_Edificacion_Familiar_Project.Controllers.EntradaController",
+    "Method": "CrearEntrada",
+    "RelativePath": "api/Entrada/Guardar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "nuevaEntrada",
+        "Type": "Iglesia_Bautista_Centro_Edificacion_Familiar_Project.Models.Entrada",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Iglesia_Bautista_Centro_Edificacion_Familiar_Project.Controllers.EntradaController",
+    "Method": "ListarEntradas",
+    "RelativePath": "api/Entrada/Listar",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Iglesia_Bautista_Centro_Edificacion_Familiar_Project.Controllers.InventarioController",
+    "Method": "ObtenerInventario",
+    "RelativePath": "api/Inventario/{IdInventario}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "IdInventario",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Iglesia_Bautista_Centro_Edificacion_Familiar_Project.BaseDatoDTO.InventarioDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Iglesia_Bautista_Centro_Edificacion_Familiar_Project.Controllers.InventarioController",
+    "Method": "EliminarInventario",
+    "RelativePath": "api/Inventario/{IdInventario}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "IdInventario",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Iglesia_Bautista_Centro_Edificacion_Familiar_Project.Controllers.InventarioController",
+    "Method": "CambiarEstado",
+    "RelativePath": "api/Inventario/CambiarEstado",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "estadoDto",
+        "Type": "Iglesia_Bautista_Centro_Edificacion_Familiar_Project.BaseDatoDTO.NuevoEstadoDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Iglesia_Bautista_Centro_Edificacion_Familiar_Project.Controllers.InventarioController",
+    "Method": "EditarInventario",
+    "RelativePath": "api/Inventario/Editar",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "inventario",
+        "Type": "Iglesia_Bautista_Centro_Edificacion_Familiar_Project.Models.Inventario",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Iglesia_Bautista_Centro_Edificacion_Familiar_Project.Controllers.InventarioController",
+    "Method": "Guardar",
+    "RelativePath": "api/Inventario/Guardar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "inventario",
+        "Type": "Iglesia_Bautista_Centro_Edificacion_Familiar_Project.Models.Inventario",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Iglesia_Bautista_Centro_Edificacion_Familiar_Project.Controllers.InventarioController",
+    "Method": "Lista",
+    "RelativePath": "api/Inventario/Lista",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Iglesia_Bautista_Centro_Edificacion_Familiar_Project.BaseDatoDTO.InventarioDTO, Iglesia_Bautista_Centro_Edificacion_Familiar_Project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Iglesia_Bautista_Centro_Edificacion_Familiar_Project.Controllers.InventarioController",
+    "Method": "ListaInactivos",
+    "RelativePath": "api/Inventario/ListaInactivos",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Iglesia_Bautista_Centro_Edificacion_Familiar_Project.BaseDatoDTO.InventarioDTO, Iglesia_Bautista_Centro_Edificacion_Familiar_Project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Iglesia_Bautista_Centro_Edificacion_Familiar_Project.Controllers.MarcaController",
+    "Method": "Buscar",
+    "RelativePath": "api/Marca/Buscar",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "nombre",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Iglesia_Bautista_Centro_Edificacion_Familiar_Project.Controllers.MarcaController",
+    "Method": "Editar",
+    "RelativePath": "api/Marca/Editar",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "objeto",
+        "Type": "Iglesia_Bautista_Centro_Edificacion_Familiar_Project.Models.Marca",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Iglesia_Bautista_Centro_Edificacion_Familiar_Project.Controllers.MarcaController",
+    "Method": "Eliminar",
+    "RelativePath": "api/Marca/Eliminar/{IdMarca}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "IdMarca",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Iglesia_Bautista_Centro_Edificacion_Familiar_Project.Controllers.MarcaController",
+    "Method": "Guardar",
+    "RelativePath": "api/Marca/Guardar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "objeto",
+        "Type": "Iglesia_Bautista_Centro_Edificacion_Familiar_Project.Models.Marca",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Iglesia_Bautista_Centro_Edificacion_Familiar_Project.Controllers.MarcaController",
+    "Method": "Lista",
+    "RelativePath": "api/Marca/Lista",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Iglesia_Bautista_Centro_Edificacion_Familiar_Project.Controllers.MarcaController",
+    "Method": "Obtener",
+    "RelativePath": "api/Marca/Obtener/{IdMarca}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "IdMarca",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Iglesia_Bautista_Centro_Edificacion_Familiar_Project.Controllers.ModeloMarcaController",
+    "Method": "Buscar",
+    "RelativePath": "api/ModeloMarca/Buscar",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "nombre",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Iglesia_Bautista_Centro_Edificacion_Familiar_Project.Controllers.ModeloMarcaController",
+    "Method": "Editar",
+    "RelativePath": "api/ModeloMarca/Editar",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "objeto",
+        "Type": "Iglesia_Bautista_Centro_Edificacion_Familiar_Project.Models.ModeloMarca",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Iglesia_Bautista_Centro_Edificacion_Familiar_Project.Controllers.ModeloMarcaController",
+    "Method": "Eliminar",
+    "RelativePath": "api/ModeloMarca/Eliminar/{IdModeloMarca}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "IdModeloMarca",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Iglesia_Bautista_Centro_Edificacion_Familiar_Project.Controllers.ModeloMarcaController",
+    "Method": "Guardar",
+    "RelativePath": "api/ModeloMarca/Guardar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "objeto",
+        "Type": "Iglesia_Bautista_Centro_Edificacion_Familiar_Project.Models.ModeloMarca",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Iglesia_Bautista_Centro_Edificacion_Familiar_Project.Controllers.ModeloMarcaController",
+    "Method": "Lista",
+    "RelativePath": "api/ModeloMarca/Lista",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Iglesia_Bautista_Centro_Edificacion_Familiar_Project.Controllers.ModeloMarcaController",
+    "Method": "Obtener",
+    "RelativePath": "api/ModeloMarca/Obtener/{IdModeloMarca}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "IdModeloMarca",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Iglesia_Bautista_Centro_Edificacion_Familiar_Project.Controllers.PerfilController",
+    "Method": "Buscar",
+    "RelativePath": "api/Perfil/Buscar",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "nombre",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Iglesia_Bautista_Centro_Edificacion_Familiar_Project.Controllers.PerfilController",
+    "Method": "Editar",
+    "RelativePath": "api/Perfil/Editar",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "objeto",
+        "Type": "Iglesia_Bautista_Centro_Edificacion_Familiar_Project.Models.Perfil",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Iglesia_Bautista_Centro_Edificacion_Familiar_Project.Controllers.PerfilController",
+    "Method": "Eliminar",
+    "RelativePath": "api/Perfil/Eliminar/{IdRol}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "IdRol",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Iglesia_Bautista_Centro_Edificacion_Familiar_Project.Controllers.PerfilController",
+    "Method": "Guardar",
+    "RelativePath": "api/Perfil/Guardar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "objeto",
+        "Type": "Iglesia_Bautista_Centro_Edificacion_Familiar_Project.Models.Perfil",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Iglesia_Bautista_Centro_Edificacion_Familiar_Project.Controllers.PerfilController",
+    "Method": "Lista",
+    "RelativePath": "api/Perfil/Lista",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Iglesia_Bautista_Centro_Edificacion_Familiar_Project.Controllers.PerfilController",
+    "Method": "Obtener",
+    "RelativePath": "api/Perfil/Obtener/{IdPerfil}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "IdPerfil",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Iglesia_Bautista_Centro_Edificacion_Familiar_Project.Controllers.PermisoController",
+    "Method": "Buscar",
+    "RelativePath": "api/Permiso/Buscar",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "nombre",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Iglesia_Bautista_Centro_Edificacion_Familiar_Project.Controllers.PermisoController",
+    "Method": "Editar",
+    "RelativePath": "api/Permiso/Editar",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "objeto",
+        "Type": "Iglesia_Bautista_Centro_Edificacion_Familiar_Project.Models.Permiso",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Iglesia_Bautista_Centro_Edificacion_Familiar_Project.Controllers.PermisoController",
+    "Method": "Eliminar",
+    "RelativePath": "api/Permiso/Eliminar/{IdPermiso}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "IdPermiso",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Iglesia_Bautista_Centro_Edificacion_Familiar_Project.Controllers.PermisoController",
+    "Method": "Guardar",
+    "RelativePath": "api/Permiso/Guardar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "objeto",
+        "Type": "Iglesia_Bautista_Centro_Edificacion_Familiar_Project.Models.Permiso",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Iglesia_Bautista_Centro_Edificacion_Familiar_Project.Controllers.PermisoController",
+    "Method": "Lista",
+    "RelativePath": "api/Permiso/Lista",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Iglesia_Bautista_Centro_Edificacion_Familiar_Project.Controllers.PermisoController",
+    "Method": "Obtener",
+    "RelativePath": "api/Permiso/Obtener/{IdPermiso}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "IdPermiso",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Iglesia_Bautista_Centro_Edificacion_Familiar_Project.Controllers.ProductoController",
+    "Method": "BuscarPorNombre",
+    "RelativePath": "api/Producto/BuscarPorNombre/{nombre}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "nombre",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Iglesia_Bautista_Centro_Edificacion_Familiar_Project.Controllers.ProductoController",
+    "Method": "Editar",
+    "RelativePath": "api/Producto/Editar",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "objeto",
+        "Type": "Iglesia_Bautista_Centro_Edificacion_Familiar_Project.Models.Producto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Iglesia_Bautista_Centro_Edificacion_Familiar_Project.Controllers.ProductoController",
+    "Method": "Eliminar",
+    "RelativePath": "api/Producto/Eliminar/{IdProducto}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "IdProducto",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Iglesia_Bautista_Centro_Edificacion_Familiar_Project.Controllers.ProductoController",
+    "Method": "Guardar",
+    "RelativePath": "api/Producto/Guardar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "objeto",
+        "Type": "Iglesia_Bautista_Centro_Edificacion_Familiar_Project.Models.Producto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Iglesia_Bautista_Centro_Edificacion_Familiar_Project.Controllers.ProductoController",
+    "Method": "Lista",
+    "RelativePath": "api/Producto/Lista",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Iglesia_Bautista_Centro_Edificacion_Familiar_Project.Controllers.ProductoController",
+    "Method": "Obtener",
+    "RelativePath": "api/Producto/Obtener/{IdProducto}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "IdProducto",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Iglesia_Bautista_Centro_Edificacion_Familiar_Project.Controllers.ResponsableController",
+    "Method": "Buscar",
+    "RelativePath": "api/Responsable/Buscar",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "nombre",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "cedula",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Iglesia_Bautista_Centro_Edificacion_Familiar_Project.Controllers.ResponsableController",
+    "Method": "Editar",
+    "RelativePath": "api/Responsable/Editar",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "objeto",
+        "Type": "Iglesia_Bautista_Centro_Edificacion_Familiar_Project.Models.Responsable",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Iglesia_Bautista_Centro_Edificacion_Familiar_Project.Controllers.ResponsableController",
+    "Method": "Eliminar",
+    "RelativePath": "api/Responsable/Eliminar/{IdResponsable}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "IdResponsable",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Iglesia_Bautista_Centro_Edificacion_Familiar_Project.Controllers.ResponsableController",
+    "Method": "Guardar",
+    "RelativePath": "api/Responsable/Guardar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "objeto",
+        "Type": "Iglesia_Bautista_Centro_Edificacion_Familiar_Project.Models.Responsable",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Iglesia_Bautista_Centro_Edificacion_Familiar_Project.Controllers.ResponsableController",
+    "Method": "Lista",
+    "RelativePath": "api/Responsable/Lista",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Iglesia_Bautista_Centro_Edificacion_Familiar_Project.Controllers.ResponsableController",
+    "Method": "Obtener",
+    "RelativePath": "api/Responsable/Obtener/{IdResponsable}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "IdResponsable",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Iglesia_Bautista_Centro_Edificacion_Familiar_Project.Controllers.SalidaController",
+    "Method": "EliminarSalida",
+    "RelativePath": "api/Salida/Eliminar/{idSalida}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idSalida",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Iglesia_Bautista_Centro_Edificacion_Familiar_Project.Controllers.SalidaController",
+    "Method": "CrearSalida",
+    "RelativePath": "api/Salida/Guardar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "nuevaSalida",
+        "Type": "Iglesia_Bautista_Centro_Edificacion_Familiar_Project.Models.Salida",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Iglesia_Bautista_Centro_Edificacion_Familiar_Project.Controllers.SalidaController",
+    "Method": "ListarSalidas",
+    "RelativePath": "api/Salida/Listar",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Iglesia_Bautista_Centro_Edificacion_Familiar_Project.Controllers.SolicitanteController",
+    "Method": "BuscarSolicitante",
+    "RelativePath": "api/Solicitante/BuscarSolicitante",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "cedula",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "correo",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "nombreCompleto",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Iglesia_Bautista_Centro_Edificacion_Familiar_Project.Controllers.SolicitanteController",
+    "Method": "Editar",
+    "RelativePath": "api/Solicitante/Editar",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "objeto",
+        "Type": "Iglesia_Bautista_Centro_Edificacion_Familiar_Project.Models.Solicitante",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Iglesia_Bautista_Centro_Edificacion_Familiar_Project.Controllers.SolicitanteController",
+    "Method": "Eliminar",
+    "RelativePath": "api/Solicitante/Eliminar/{IdSolicitante}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "IdSolicitante",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Iglesia_Bautista_Centro_Edificacion_Familiar_Project.Controllers.SolicitanteController",
+    "Method": "GuardarResponsable",
+    "RelativePath": "api/Solicitante/GuardarResponsable",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "objeto",
+        "Type": "Iglesia_Bautista_Centro_Edificacion_Familiar_Project.Models.Responsable",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Iglesia_Bautista_Centro_Edificacion_Familiar_Project.Controllers.SolicitanteController",
+    "Method": "GuardarSolicitante",
+    "RelativePath": "api/Solicitante/GuardarSolicitante",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "objeto",
+        "Type": "Iglesia_Bautista_Centro_Edificacion_Familiar_Project.Models.Solicitante",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Iglesia_Bautista_Centro_Edificacion_Familiar_Project.Controllers.SolicitanteController",
+    "Method": "Lista",
+    "RelativePath": "api/Solicitante/Lista",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Iglesia_Bautista_Centro_Edificacion_Familiar_Project.Controllers.SolicitanteController",
+    "Method": "Obtener",
+    "RelativePath": "api/Solicitante/Obtener/{IdSolicitante}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "IdSolicitante",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Iglesia_Bautista_Centro_Edificacion_Familiar_Project.Controllers.SolicitudPrestamoController",
+    "Method": "EliminarSolicitudPrestamo",
+    "RelativePath": "api/SolicitudPrestamo/Eliminar/{IdSolicituPrestamo}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "IdSolicituPrestamo",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Iglesia_Bautista_Centro_Edificacion_Familiar_Project.Controllers.SolicitudPrestamoController",
+    "Method": "GuardarSolicitudPrestamo",
+    "RelativePath": "api/SolicitudPrestamo/Guardar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "solicitud",
+        "Type": "Iglesia_Bautista_Centro_Edificacion_Familiar_Project.Models.SolicitudPrestamo",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Iglesia_Bautista_Centro_Edificacion_Familiar_Project.Controllers.SolicitudPrestamoController",
+    "Method": "ObtenerSolicitudesPrestamo",
+    "RelativePath": "api/SolicitudPrestamo/Lista",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Iglesia_Bautista_Centro_Edificacion_Familiar_Project.Controllers.TipoEntradaController",
+    "Method": "Editar",
+    "RelativePath": "api/TipoEntrada/Editar",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "objeto",
+        "Type": "Iglesia_Bautista_Centro_Edificacion_Familiar_Project.Models.TipoEntrada",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Iglesia_Bautista_Centro_Edificacion_Familiar_Project.Controllers.TipoEntradaController",
+    "Method": "Eliminar",
+    "RelativePath": "api/TipoEntrada/Eliminar/{IdTipoEntrada}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "IdTipoEntrada",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Iglesia_Bautista_Centro_Edificacion_Familiar_Project.Controllers.TipoEntradaController",
+    "Method": "Guardar",
+    "RelativePath": "api/TipoEntrada/Guardar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "objeto",
+        "Type": "Iglesia_Bautista_Centro_Edificacion_Familiar_Project.Models.TipoEntrada",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Iglesia_Bautista_Centro_Edificacion_Familiar_Project.Controllers.TipoEntradaController",
+    "Method": "Lista",
+    "RelativePath": "api/TipoEntrada/Lista",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Iglesia_Bautista_Centro_Edificacion_Familiar_Project.Controllers.TipoEntradaController",
+    "Method": "Obtener",
+    "RelativePath": "api/TipoEntrada/Obtener/{IdTipoEntrada}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "IdTipoEntrada",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Iglesia_Bautista_Centro_Edificacion_Familiar_Project.Controllers.TipoProductoController",
+    "Method": "Buscar",
+    "RelativePath": "api/TipoProducto/Buscar",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "nombre",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Iglesia_Bautista_Centro_Edificacion_Familiar_Project.Controllers.TipoProductoController",
+    "Method": "Editar",
+    "RelativePath": "api/TipoProducto/Editar",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "objeto",
+        "Type": "Iglesia_Bautista_Centro_Edificacion_Familiar_Project.Models.TipoProducto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Iglesia_Bautista_Centro_Edificacion_Familiar_Project.Controllers.TipoProductoController",
+    "Method": "Eliminar",
+    "RelativePath": "api/TipoProducto/Eliminar/{IdTipoProducto}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "IdTipoProducto",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Iglesia_Bautista_Centro_Edificacion_Familiar_Project.Controllers.TipoProductoController",
+    "Method": "Guardar",
+    "RelativePath": "api/TipoProducto/Guardar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "objeto",
+        "Type": "Iglesia_Bautista_Centro_Edificacion_Familiar_Project.Models.TipoProducto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Iglesia_Bautista_Centro_Edificacion_Familiar_Project.Controllers.TipoProductoController",
+    "Method": "Lista",
+    "RelativePath": "api/TipoProducto/Lista",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Iglesia_Bautista_Centro_Edificacion_Familiar_Project.Controllers.TipoProductoController",
+    "Method": "Obtener",
+    "RelativePath": "api/TipoProducto/Obtener/{IdTipoProducto}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "IdTipoProducto",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Iglesia_Bautista_Centro_Edificacion_Familiar_Project.Controllers.UsuarioController",
+    "Method": "Buscar",
+    "RelativePath": "api/Usuario/Buscar",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "cedula",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "correo",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "nombreCompleto",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Iglesia_Bautista_Centro_Edificacion_Familiar_Project.Controllers.UsuarioController",
+    "Method": "Editar",
+    "RelativePath": "api/Usuario/Editar",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "objeto",
+        "Type": "Iglesia_Bautista_Centro_Edificacion_Familiar_Project.Models.Usuario",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Iglesia_Bautista_Centro_Edificacion_Familiar_Project.Controllers.UsuarioController",
+    "Method": "Eliminar",
+    "RelativePath": "api/Usuario/Eliminar/{idUsuario}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idUsuario",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Iglesia_Bautista_Centro_Edificacion_Familiar_Project.Controllers.UsuarioController",
+    "Method": "Guardar",
+    "RelativePath": "api/Usuario/Guardar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "objeto",
+        "Type": "Iglesia_Bautista_Centro_Edificacion_Familiar_Project.Models.Usuario",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Iglesia_Bautista_Centro_Edificacion_Familiar_Project.Controllers.UsuarioController",
+    "Method": "IniciarSesion",
+    "RelativePath": "api/Usuario/IniciarSesion",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "usuario",
+        "Type": "Iglesia_Bautista_Centro_Edificacion_Familiar_Project.Models.Usuario",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Iglesia_Bautista_Centro_Edificacion_Familiar_Project.Controllers.UsuarioController",
+    "Method": "Lista",
+    "RelativePath": "api/Usuario/Lista",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Iglesia_Bautista_Centro_Edificacion_Familiar_Project.Controllers.UsuarioController",
+    "Method": "Obtener",
+    "RelativePath": "api/Usuario/Obtener/{IdUsuario}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "IdUsuario",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

@@ -1,0 +1,53 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Owner\\source\\repos\\Iglesia_Bautista_Centro_Edificacion_Familiar_Project\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2FCFD625-5D85-4339-B701-2CAB2E236E1B}|Iglesia_Bautista_Centro_Edificacion_Familiar_Project\\Iglesia_Bautista_Centro_Edificacion_Familiar_Project.csproj|c:\\users\\owner\\source\\repos\\iglesia_bautista_centro_edificacion_familiar_project\\iglesia_bautista_centro_edificacion_familiar_project\\controllers\\almacenecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FCFD625-5D85-4339-B701-2CAB2E236E1B}|Iglesia_Bautista_Centro_Edificacion_Familiar_Project\\Iglesia_Bautista_Centro_Edificacion_Familiar_Project.csproj|solutionrelative:iglesia_bautista_centro_edificacion_familiar_project\\controllers\\almacenecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FCFD625-5D85-4339-B701-2CAB2E236E1B}|Iglesia_Bautista_Centro_Edificacion_Familiar_Project\\Iglesia_Bautista_Centro_Edificacion_Familiar_Project.csproj|c:\\users\\owner\\source\\repos\\iglesia_bautista_centro_edificacion_familiar_project\\iglesia_bautista_centro_edificacion_familiar_project\\controllers\\devolucioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FCFD625-5D85-4339-B701-2CAB2E236E1B}|Iglesia_Bautista_Centro_Edificacion_Familiar_Project\\Iglesia_Bautista_Centro_Edificacion_Familiar_Project.csproj|solutionrelative:iglesia_bautista_centro_edificacion_familiar_project\\controllers\\devolucioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AlmaceneController.cs",
+              "DocumentMoniker": "C:\\Users\\Owner\\source\\repos\\Iglesia_Bautista_Centro_Edificacion_Familiar_Project\\Iglesia_Bautista_Centro_Edificacion_Familiar_Project\\Controllers\\AlmaceneController.cs",
+              "RelativeDocumentMoniker": "Iglesia_Bautista_Centro_Edificacion_Familiar_Project\\Controllers\\AlmaceneController.cs",
+              "ToolTip": "C:\\Users\\Owner\\source\\repos\\Iglesia_Bautista_Centro_Edificacion_Familiar_Project\\Iglesia_Bautista_Centro_Edificacion_Familiar_Project\\Controllers\\AlmaceneController.cs",
+              "RelativeToolTip": "Iglesia_Bautista_Centro_Edificacion_Familiar_Project\\Controllers\\AlmaceneController.cs",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAwwFcAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T09:08:50.158Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DevolucionController.cs",
+              "DocumentMoniker": "C:\\Users\\Owner\\source\\repos\\Iglesia_Bautista_Centro_Edificacion_Familiar_Project\\Iglesia_Bautista_Centro_Edificacion_Familiar_Project\\Controllers\\DevolucionController.cs",
+              "RelativeDocumentMoniker": "Iglesia_Bautista_Centro_Edificacion_Familiar_Project\\Controllers\\DevolucionController.cs",
+              "ToolTip": "C:\\Users\\Owner\\source\\repos\\Iglesia_Bautista_Centro_Edificacion_Familiar_Project\\Iglesia_Bautista_Centro_Edificacion_Familiar_Project\\Controllers\\DevolucionController.cs",
+              "RelativeToolTip": "Iglesia_Bautista_Centro_Edificacion_Familiar_Project\\Controllers\\DevolucionController.cs",
+              "ViewState": "AgIAADsAAAAAAAAAAAAwwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T04:50:37.9Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

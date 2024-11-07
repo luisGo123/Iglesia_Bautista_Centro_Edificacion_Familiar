@@ -1,0 +1,6 @@
+@Iglesia_Bautista_Centro_Edificacion_Familiar_Project_HostAddress = http://localhost:5081
+
+GET {{Iglesia_Bautista_Centro_Edificacion_Familiar_Project_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
